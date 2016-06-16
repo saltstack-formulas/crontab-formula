@@ -1,0 +1,6 @@
+# -*- coding: utf-8 -*-
+# vim: ft=yaml;ts=2;sw=2 et :
+
+crontab:
+  pkg: cron
+  config: /etc/crontab

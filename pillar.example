@@ -1,0 +1,8 @@
+crontab:
+  hourly_minute: 10
+  daily_hour: 1
+  daily_minute: 20
+  weekly_hour: 2
+  weekly_minute: 30
+  monthly_hour: 3
+  monthly_minute: 40
