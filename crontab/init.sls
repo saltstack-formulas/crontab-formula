@@ -1,7 +1,5 @@
 #!jinja|yaml
 # -*- coding: utf-8 -*-
-# vim: ft=sls;ts=2;sw=2 et :
-#
 
 {% from "crontab/map.jinja" import crontab with context %}
 

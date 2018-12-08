@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-# vim: ft=jinja;ts=2;sw=2 et :
 {%- set crontab = pillar.get('crontab', {}) -%}
 {%- set ran_hourly_minute = salt.random.seed(59) -%}
 {%- set ran_daily_hour = salt.random.seed(5) -%}
